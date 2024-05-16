@@ -16,7 +16,7 @@ body {
 }
 
 .card {
-  dispaly: flex;
+  display: flex;
   text-decoration: none;
   padding: 0;
   margin: 0;
