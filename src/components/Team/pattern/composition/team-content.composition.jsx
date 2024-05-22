@@ -1,6 +1,6 @@
 import '../styles.css'
 
-import EmptyImage from '../../../../assets/images/svg/Image.png'
+import Senai from '../../../../assets/images/svg/senai-logo-1.png'
 import Dribble from '../../../../assets/images/svg/Dribble.png'
 import LinkedIn from '../../../../assets/images/svg/linkedin.png'
 import X from '../../../../assets/images/svg/X.png'
@@ -8,7 +8,7 @@ import X from '../../../../assets/images/svg/X.png'
 export default function Content() {
     return (
         <div className='content-container'>
-            <img src={EmptyImage} alt="" className='content-image' />
+            <img src={Senai} alt="" className='content-image' />
             <div className="content-title">
                 <h1>SENAI-SP</h1>
                 <h2>Paulo Ernesto Tolle</h2>

@@ -14,10 +14,7 @@ function App() {
      <Content /> 
      <Main /> 
      
-     
-     
-
-    </body>
+     </body>
   );
 }
 
