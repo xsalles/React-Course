@@ -1,8 +1,9 @@
 import "./App.css"
 
 
-import Content from "./components/Layout/Team/components/content"
+import Content from "./components/Layout/Team/components/content";
 import Section from "./components/Layout/Team/components/section";
+import Main from "./components/Layout/Team/components/main";
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <body>
       
      <Section />
-     <Content />  
+     <Content /> 
+     <Main /> 
      
      
      

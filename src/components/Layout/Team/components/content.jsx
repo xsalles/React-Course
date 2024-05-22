@@ -10,17 +10,17 @@ export default function Content() {
         <div className='content-container'>
             <img src={EmptyImage} alt="" className='content-image' />
             <div className="content-title">
-                <h1>Full name</h1>
-                <h2>Job title</h2>
+                <h1>SENAI-SP</h1>
+                <h2>Paulo Ernesto Tolle</h2>
             </div>
             <p className='content-description'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+            Melhor unidade do senai
             </p>
             <div className="content-icons">
-                <a href="https://br.linkedin.com/" target='_blank'>
+                <a href="https://br.linkedin.com/company/senai-nacional" target='_blank'>
                     <img src={LinkedIn} alt="" />
                 </a>
-                <a href="https:/x.com/" target='_blank'>
+                <a href="https://x.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target='_blank'>
                     <img src={X} alt="" />
                 </a>
                 <a href="https://dribble.com/" target='_blank'>
