@@ -1,4 +1,4 @@
-import "../styles.css"
+import "../../../Team/styles.css"
 
 export default function Section() {
     return(

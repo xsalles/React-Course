@@ -1,18 +1,18 @@
 import "./App.css"
 
 
-import Content from "./components/Layout/Team/components/content";
-import Section from "./components/Layout/Team/components/section";
-import Main from "./components/Layout/Team/components/main";
+import Content from "./components/Team/pattern/composition/team-content.composition";
+import Section from "./components/Team/pattern/composition/team-section.composition";
+import Main from "./components/Team/pattern/composition/team-main.composition"
 
 
 function App() {
   return (
     <body>
       
+     <Content />
+     <Main />
      <Section />
-     <Content /> 
-     <Main /> 
      
      </body>
   );

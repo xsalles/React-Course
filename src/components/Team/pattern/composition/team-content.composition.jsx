@@ -1,9 +1,9 @@
-import '../styles.css'
+import "../../../Team/styles.css"
 
-import Senai from '../../../../assets/images/svg/senai-logo-1.png'
-import Dribble from '../../../../assets/images/svg/Dribble.png'
-import LinkedIn from '../../../../assets/images/svg/linkedin.png'
-import X from '../../../../assets/images/svg/X.png'
+import Senai from '../../../../assets/images/senai-logo-1.png'
+import Dribble from '../../../../assets/images/Dribble.png'
+import LinkedIn from '../../../../assets/images/linkedin.png'
+import X from '../../../../assets/images/X.png'
 
 export default function Content() {
     return (
