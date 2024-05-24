@@ -18,3 +18,9 @@ const primeiroNumero = 10
 const segundaNumero = 20
 
 console.log(SomaNumeros(primeiroNumero, segundaNumero))
+
+//Tipo de dados
+
+const name = "Pedro"
+const age = 20
+const isAprovved = false
