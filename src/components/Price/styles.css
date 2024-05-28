@@ -40,7 +40,7 @@
 
 .price-plan-container {
     width: 552px;
-    height: 562px;
+    height: 595px;
     border: 2px solid black;
     border-radius: 1px 1px 1px 1px; 
     padding: 32px;
@@ -92,15 +92,13 @@
 
 .price-includes > button {
     width: 488px;
-    height: 48px;
+    height: 45px;
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     margin-top: 1px;
-    
-    
 }
 
 .price-includes > h1 {

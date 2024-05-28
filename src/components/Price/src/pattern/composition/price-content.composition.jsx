@@ -12,6 +12,7 @@ function Benefits() {
         <div className="price-benefits">
             <img src={Check} alt="" />
             <p>Feature text goes here</p>
+            
         </div>
     )
 }
@@ -32,16 +33,19 @@ export default function PricePlan() {
                 <div className="line"></div>
                 <div className="price-includes">
                     <h1>Includes:</h1>
+                    
 
                     {mock.map((elements) => {
                         return <Benefits key={elements} />
+                        
 
                     })}
-
+                    
+                    <button>Get started</button>
                     
 
 
-                    <button>Get started</button>
+                    
 
                     
                 </div>
