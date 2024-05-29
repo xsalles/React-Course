@@ -1,4 +1,5 @@
 import "./App.css"
+import Square from "./styles/styled-component/components/Square";
 
 
 import Content from "./components/Team/pattern/composition/team-content.composition";
@@ -7,17 +8,11 @@ import Main from "./components/Team/pattern/composition/team-main.composition"
 import PriceSection from "./components/Price/src/pattern/composition/price-section.composition"
 import PricePlan from "./components/Price/src/pattern/composition/price-content.composition";
 
-
 function App() {
   return (
     <body>
-      
-     
-    <PriceSection />
-    <PricePlan />
-     
-     
-     </body>
+      <Square />
+    </body>
   );
 }
 
