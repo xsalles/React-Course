@@ -4,12 +4,8 @@ Neste curso estou aprendendo sobre o React, uma biblioteca do JavaScript que tem
 
 Estou aprendendo sobre:
 
-• Pattern.
-
-• Composition.
-
-• Function.
-
 • Figma.
 
-• Funcionalidade "map".
+• Styled Components.
+
+• Funcionalidades: pattern, components, composition, function, props.
