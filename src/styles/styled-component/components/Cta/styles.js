@@ -3,72 +3,69 @@ import EmptyImage from "../../../../assets/images/Image.svg"
 
 
 export const CtaContainer = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    
-    width: 336px;
-    height: 112px;
-    
+    width: 1440px;
+    height: 474px;
+    gap: 80px;
+    padding: 64px 112px;
 `
 
-export const CtaTitle = styled.h2`
+export const CtaContent = styled.h1`
     display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 112px;
+    font-size: 48ox;
     width: 768px;
     height: 58px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-`
+    margin-left: 64px;
+    margin-top: 112px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+` 
 
-
-export const CtaDescription = styled.p`
+export const CtaDescription = styled.div`
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    align-items: left;
+    justify-content: center;
+    font-size: 18px;
     margin-top: 24px;
-    width: 616px;
-    height: 81px;
+    margin-left: 64px;
+    width: 768px;
+    height: 54px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 `
 
-
-export const CtaContainerButtons = styled.div`
+export const CtaContainerButton = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
     width: 208px;
     height: 64px;
-    margin-left: 200px;
-    margin-top: 24px;
     gap: 16px;
+    margin-left: 64px;
+    margin-top: 24px;
 `
 
-
-
-export const CtaButton1 = styled.a`
+export const CtaButtonOne = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 96px;
-    height: 48px;
     background-color: black;
     color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 96px;
+    height: 48px;
+    padding: 11px 21px;
+    cursor: pointer;
 `
 
-export const CtaButton2 = styled.a`
+export const CtaButtonTwo = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 96px;
-    height: 48px;
     background-color: white;
     border: 1px solid black;
     color: black;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 96px;
+    height: 48px;
+    padding: 11px 21px;
+    cursor: pointer;
 `
+
+
 

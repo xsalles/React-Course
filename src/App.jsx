@@ -15,7 +15,8 @@ function App() {
     <body>
       <Cta title="Medium length heading goes here"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-        button="Button" imagem={EmptyImage}>
+        button="Button">
+      
       </Cta>
       
     </body>
