@@ -11,7 +11,7 @@ export const CtaContainer = styled.div`
 
 export const CtaContent = styled.h1`
     display: flex;
-    font-size: 48ox;
+    font-size: 40px;
     width: 768px;
     height: 58px;
     margin-left: 64px;
