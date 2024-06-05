@@ -1,0 +1,19 @@
+@value cor: #45c;
+
+
+
+.titulo{
+    font-size: 36px;
+    text-transform: capitalize;
+    color: cor;
+}
+
+.description{
+    composes: titulo;
+    font-weight: bold;
+}
+
+:global .titulo {
+    font-size: 30px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blog{
+    width: 1440px;
+    height: 958px;
+    padding: 64px;
+    background-color: gray;
+}
+
+.login{
+    
+    margin-left: 336px;
+    width: 768px;
+    height: 830px;
+    background-color: white;
+    padding: 64px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 640px;
+    height: 58px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 640px;
+    height: 27px;
+    margin-top: 16px;
+}
+
+.forms{
+    width: 640px;
+    height: 553px;
+    gap: 24px;
+    margin-top: 24px;
+    
+}
+
+.name{
+    width: 640px;
+    height: 24px;
+    align-items: left top;
+    
+}
+
+.textArea{
+    width: 640px;
+    height: 48px;
+    padding: 12px;
+    border: 2px solid black;
+    margin-top: 8px;
+}
+
+.email{
+    width: 640px;
+    height: 24px;
+    margin-top: 24px;
+}
+
+.message{
+    width: 640px;
+    height: 48px;
+    gap: 24px;
+}
+
+.textAreaMessage{
+    width: 640px;
+    height: 180px;
+    padding: 12px;
+    border: 2px solid black;
+    margin-top: 8px;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    width: 146px;
+    height: 37px;
+    margin-left: 247px;
+    margin-top: 24px;
+    gap: 12px;
+}
+
+.checkBox{
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+}
+
+.terms{
+    display: flex;
+    
+    
+    width: 116px;
+    height: 21px;
+
+}
+
+
