@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-export default function Blog() {
+export default function Contact() {
   return (
     <form className={styles.blog}>
       <div className={styles.login}>

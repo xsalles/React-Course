@@ -12,7 +12,7 @@ import Main from "./components/Team/pattern/composition/team-main.composition"
 import PriceSection from "./components/Price/src/pattern/composition/price-section.composition"
 import PricePlan from "./components/Price/src/pattern/composition/price-content.composition";
 import EmptyImage from "./assets/images/Image.svg"
-import Blog from "./styles/css.modules/components/Blog";
+import Contact from "./styles/css.modules/components/Contact";
 
 
 
@@ -20,7 +20,7 @@ function App() {
   return (
     <body>
 
-      <Blog />
+      <Contact />
       
     
       
