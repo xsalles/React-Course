@@ -9,38 +9,35 @@ export default function Blog() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
         </p>
         <form className={styles.forms}>
-          <p className={styles.name}></p>
-          <label htmlFor="Name">Name</label>
-          <input
+          <p className={styles.name}>Name</p>
+          <textarea
             type="text"
             name="Name"
             id="Name"
             className={styles.textArea}
           />
-          <p className={styles.email}></p>
-          <label htmlFor="Email">Email</label>
-          <input
+          <p className={styles.email}>Email</p>
+          <textarea
             type="text"
             name="Email"
             id="Email"
             className={styles.textArea}
           />
-          <p className={styles.message}></p>
-          <label htmlFor="Message">Message</label>
+          <p className={styles.message}>Message</p>
           <textarea
             placeholder="Type your message..."
             name="Message"
             id="Message"
             className={styles.textAreaMessage}
-          ></textarea>
+          />
           <div className={styles.check}>
             <input type="checkBox" id="checkbox" className={styles.checkBox} />
-            <p for="checkbox" className={styles.terms}>I accept the Terms </p>
+            <p for="checkbox" className={styles.terms}>I accept the &nbsp;<u className={styles.underline}> Terms</u> </p>
           </div>
           <div className="button-container">
-            <a href="#" className={styles.button}>
-              Submit
-            </a>
+            <button className={styles.button}>
+              <p className={styles.textSubmit}>Submit</p>
+            </button>
           </div>
         </form>
       </div>

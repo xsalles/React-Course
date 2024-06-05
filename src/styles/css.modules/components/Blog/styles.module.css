@@ -67,12 +67,14 @@
   width: 640px;
   height: 24px;
   display: flex;
+  margin-top: 24px;
 }
 
 .message {
   display: flex;
   width: 640px;
-  height: 48px;
+  height: 24px;
+  margin-top: 24px;
 }
 
 .textAreaMessage {
@@ -80,8 +82,8 @@
   height: 180px;
   padding: 12px;
   border: 1px solid black;
-  margin-top: 8px;
   text-align: left;
+  margin-top: 8px;
 }
 
 .check {
@@ -94,12 +96,20 @@
   padding-bottom: 16px;
 }
 
-.checkBox {
+.checkBox{
   display: grid;
   width: 18px;
   height: 18px;
-  border: 1px solid black;
-  
+  border: 1.5px solid black;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.checkBox:checked{
+    background-color: blue;
 }
 
 .terms {
@@ -109,13 +119,13 @@
   align-items: left;
   font-weight: 400;
   font-size: 14px;
+  color: black;
 }
 
 .button{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     margin-top: 24px;
     margin-left: 270.5px;
     background-color: black;
@@ -125,9 +135,12 @@
     color: white;
 }
 
+.textSubmit{
+    font-size: 16px;
+}
+
 .underline{
     text-decoration: underline;
-    
 }
 
 
