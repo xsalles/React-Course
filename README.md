@@ -8,4 +8,8 @@ Estou aprendendo sobre:
 
 • Styled Components.
 
-• Funcionalidades: pattern, components, composition, function, props.
+• Tailwind css.
+
+• Css modules.
+
+• Funcionalidades: pattern, components, composition, function, props e array "useState".
