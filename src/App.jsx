@@ -13,7 +13,9 @@ import PriceSection from "./components/Price/src/pattern/composition/price-secti
 import PricePlan from "./components/Price/src/pattern/composition/price-content.composition";
 import EmptyImage from "./assets/images/Image.svg"
 import Contact from "./styles/css.modules/components/Contact";
-import Accordion from "./hooks/components/accordion";
+
+import Faq from "./hooks/components/Faq";
+
 
 
 
@@ -21,10 +23,8 @@ function App() {
   return (
     <body>
 
-      <Accordion />
-      
-    
-      
+      <Faq />
+
     </body>
   );
 }
