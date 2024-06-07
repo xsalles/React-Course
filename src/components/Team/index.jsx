@@ -10,6 +10,7 @@ const TeamUsers = [
         linkedin:"https://www.linkedin.com/company/senai-nacional/?originalSubdomain=br",
         x:"https://x.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         dribble:"https://dribbble.com/"
+        
     }
  }
 ]

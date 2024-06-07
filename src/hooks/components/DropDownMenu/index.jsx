@@ -1,20 +1,35 @@
-import {Relume} from "./src/images" 
+import Relume from "./images/Relume.png"
+import * as S from "./styles"
 
-// Método de codigo limpo, exportando
-import * as S from "./style"
+export default function DropdownMenu(props) {
 
-export function MenuDropDown() {
-    return(
+
+    return (
         <S.Container>
-            <S.Content>
-                <S.Image />
 
-                    <S.ContentText>
-                        <S.Title>Page One</S.Title>
-                        <S.Description> Lorem ipsum dolor, sit amet consectetur adipisicing. </S.Description>
-                    </S.ContentText>
+        {
+          props.pages && ( props.pages > props.pages?.length == 0 )
+            
+            ? 
+            
+            props.pages.map((pages, key) => {
+                return (
+                    <S.Content key={key}>
+                        <S.Image src={Relume} />
+                        <S.ContentText>
+                            <S.Title>{pages.title}</S.Title>
+                            <S.Description>{pages.description}</S.Description>
+                        </S.ContentText>
+                    </S.Content>
+                )
+            }) 
 
-            </S.Content>
+            :
+
+            <p>Coloque um Array!!</p>
+
+        }
+
         </S.Container>
     )
-};
+}

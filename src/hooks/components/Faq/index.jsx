@@ -1,7 +1,8 @@
 import { useState } from "react";
 import AngleDown from "./src/svg/AngleDown.png"
 import AngleUp from "./src/svg/Icon_angle-up.svg"
-import { FaqImage, FaqButton, FaqContainer, FaqDescription, FaqQuestion, FaqQuestionContainer, FaqQuestionTitle, FaqTitle, FaqWrapper, FaqContent, FaqContentTitle, FaqContentDescription, FaqContentButton } from "./styles";
+import { FaqImage, FaqButton, FaqContainer, FaqDescription, FaqQuestion, FaqQuestionContainer, FaqQuestionTitle, FaqTitle, FaqWrapper, FaqContent, FaqContentTitle, FaqContentDescription, FaqContentButton, FaqQuestion } from "./styles";
+
 
 export default function Faq() {
     return (
