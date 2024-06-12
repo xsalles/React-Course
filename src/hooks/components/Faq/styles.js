@@ -5,6 +5,10 @@ export const FaqWrapper = styled.div `
     height: 1043px;
     padding: 112px 64px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 
 export const FaqContainer = styled.div`
@@ -67,7 +71,25 @@ export const FaqButton = styled.button`
     justify-content: center;
 `
 
-export const FaqImage = styled.img``
+export const FaqContentContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    width: 300px;
+    
+`
+
+export const ContentText = styled.p`
+    font-size: 16px;
+`
+
+
+export const FaqImage = styled.img`
+
+`
+
+
 
 export const FaqContent = styled.div`
     margin-top: 80px;
@@ -106,3 +128,6 @@ export const FaqContentButton = styled.button`
     cursor: pointer;
     font-size: 16px;
 `
+
+
+

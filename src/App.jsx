@@ -1,5 +1,7 @@
 import "./App.css"
 import DropdownMenu from "./hooks/components/DropDownMenu";
+import Faq from "./hooks/components/Faq";
+import Navbar from "./hooks/components/Navbar";
 
 
 function App() {
@@ -25,7 +27,8 @@ function App() {
 
   return (
     <body>
-      <DropdownMenu pages={pages} />
+      <Navbar/>
+      
     </body>
   );
 }

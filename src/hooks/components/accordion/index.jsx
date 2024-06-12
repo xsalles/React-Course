@@ -2,7 +2,13 @@ import { useState } from "react";
 import Up from "./src/svg/Icon_angle-up.svg"
 import Down from "./src/svg/Icon_angle-down.svg"
 
-import { AccordionButton, AccordionText, AccordionContainer, AccordionContent, AccordionWrapper, ContentText, AccordionImage } from "./styles";
+import { AccordionButton, 
+         AccordionText, 
+         AccordionContainer, 
+         AccordionContent, 
+         AccordionWrapper, 
+         ContentText, 
+         AccordionImage } from "./styles";
 
 export default function Accordion() {
 

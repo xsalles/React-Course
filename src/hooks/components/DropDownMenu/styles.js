@@ -8,7 +8,12 @@ export const Container = styled.div`
     flex-direction: column;
     border: 1px black solid;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding:24px ;
+    padding:24px;
+    height: auto;   
+    top: 60px;
+    right: 140px;
+    position: absolute;
+    background: white;
 `
 
 export const Content = styled.div`

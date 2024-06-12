@@ -16,7 +16,6 @@ export const AccordionContent = styled.div`
 `
 export const ContentText = styled.p`
     font-size: 14px;
-
 `
 
 export const AccordionContainer = styled.div`
