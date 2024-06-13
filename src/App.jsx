@@ -17,6 +17,7 @@ function App() {
         <Route path="/navbar" Component={Navbar} />
         <Route path="/teams" Component={TeamComposition} />
         <Route path="/contact" Component={Contact}/>
+        <Route path="/faq" Component={Faq} />
       </Routes >
     </body>
   );

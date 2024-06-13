@@ -19,7 +19,7 @@ export const FaqContainer = styled.div`
     flex-direction: column;
 `
 
-export const FaqTitle = styled.h1`
+export const FaqTitle = styled.h2`
     width: 768px;
     height: 58px;
     text-align: center;

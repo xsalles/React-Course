@@ -17,15 +17,15 @@ export default function Navbar (props) {
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
         },
         {
-          title: "Page one",
+          title: "Page Two",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
         },
         {
-          title: "Page one",
+          title: "Page Three",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
         },
         {
-          title: "Page one",
+          title: "Page Four",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
         },
       ];
@@ -41,9 +41,9 @@ export default function Navbar (props) {
                   <Link to="/contact">Contact</Link>
                 </S.Link>
                 <S.Link>
-                  <Link ></Link>
+                  <Link to="/faq">Faq</Link>
                 </S.Link>
-                <S.Link onClick={handleMenu}>Link 4</S.Link>
+                <S.Link onClick={handleMenu}>Pages</S.Link>
                 {
                     open && <DropdownMenu pages={listPages} /> 
                 }

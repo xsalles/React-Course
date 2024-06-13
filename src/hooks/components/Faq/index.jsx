@@ -19,33 +19,33 @@ export default function Faq() {
         <FaqWrapper>
             <FaqContainer>
 
-                <FaqTitle><h2>FAQs</h2></FaqTitle>
+                <FaqTitle><h1>FAQs</h1></FaqTitle>
                 <FaqDescription><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Suspendisse varius enim in eros elementum tristique.</p></FaqDescription>
                 <FaqQuestionContainer>
                     <FaqQuestion><FaqQuestionTitle>Question text goes here</FaqQuestionTitle>
                         <FaqButton onClick={HandleAngle}>
-                            <FaqImage src={visible === false ? AngleDown : AngleUp} />
+                            <FaqImage  />
                         </FaqButton>
                     </FaqQuestion>
                     <FaqQuestion><FaqQuestionTitle>Question text goes here</FaqQuestionTitle>
-                        <FaqButton onClick={HandleAngle}>
-                            <FaqImage src={visible === false ? AngleDown : AngleUp} />
+                        <FaqButton >
+                            <FaqImage  />
                         </FaqButton>
                     </FaqQuestion>
                     <FaqQuestion><FaqQuestionTitle>Question text goes here</FaqQuestionTitle>
-                        <FaqButton onClick={HandleAngle}>
-                            <FaqImage src={visible === false ? AngleDown : AngleUp} />
+                        <FaqButton >
+                            <FaqImage  />
                         </FaqButton>
                     </FaqQuestion>
                     <FaqQuestion><FaqQuestionTitle>Question text goes here</FaqQuestionTitle>
-                        <FaqButton onClick={HandleAngle}>
-                            <FaqImage src={visible === false ? AngleDown : AngleUp} />
+                        <FaqButton >
+                            <FaqImage  />
                         </FaqButton>
                     </FaqQuestion>
                     <FaqQuestion><FaqQuestionTitle>Question text goes here</FaqQuestionTitle>
-                        <FaqButton onClick={HandleAngle}>
-                            <FaqImage src={visible === false ? AngleDown : AngleUp} />
+                        <FaqButton >
+                            <FaqImage  />
                         </FaqButton>
                     </FaqQuestion>
 
