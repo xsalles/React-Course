@@ -1,6 +1,7 @@
 import * as S from "./styles"
 import {useState} from "react"
 import DropdownMenu from "../DropDownMenu";
+import { Link } from "react-router-dom";
 
 export default function Navbar (props) {
     
@@ -33,7 +34,9 @@ export default function Navbar (props) {
         <S.Container>
             <S.Logo>Logo</S.Logo>
             <S.Nav>
-                <S.Link>Link 1</S.Link>
+                <S.Link>
+                  <Link to="/teams">Teams</Link>
+                </S.Link>
                 <S.Link>Link 2</S.Link>
                 <S.Link>Link 3</S.Link>
                 <S.Link onClick={handleMenu}>Link 4</S.Link>

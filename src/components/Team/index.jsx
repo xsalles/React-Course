@@ -10,9 +10,63 @@ const TeamUsers = [
         linkedin:"https://www.linkedin.com/company/senai-nacional/?originalSubdomain=br",
         x:"https://x.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         dribble:"https://dribbble.com/"
-        
     }
- }
+ },
+ {
+    image: "https://static.portaldaindustria.com.br/media/uploads/logotipos/logo-senai.png",
+    nome: "Senai",
+    role: "Escola",
+    description: "Melhor instituição de ensino",
+    socialMedias: {
+        linkedin:"https://www.linkedin.com/company/senai-nacional/?originalSubdomain=br",
+        x:"https://x.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        dribble:"https://dribbble.com/"
+    }
+ },
+ {
+    image: "https://static.portaldaindustria.com.br/media/uploads/logotipos/logo-senai.png",
+    nome: "Senai",
+    role: "Escola",
+    description: "Melhor instituição de ensino",
+    socialMedias: {
+        linkedin:"https://www.linkedin.com/company/senai-nacional/?originalSubdomain=br",
+        x:"https://x.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        dribble:"https://dribbble.com/"
+    }
+ },
+ {
+    image: "https://static.portaldaindustria.com.br/media/uploads/logotipos/logo-senai.png",
+    nome: "Senai",
+    role: "Escola",
+    description: "Melhor instituição de ensino",
+    socialMedias: {
+        linkedin:"https://www.linkedin.com/company/senai-nacional/?originalSubdomain=br",
+        x:"https://x.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        dribble:"https://dribbble.com/"
+    }
+ },
+ {
+    image: "https://static.portaldaindustria.com.br/media/uploads/logotipos/logo-senai.png",
+    nome: "Senai",
+    role: "Escola",
+    description: "Melhor instituição de ensino",
+    socialMedias: {
+        linkedin:"https://www.linkedin.com/company/senai-nacional/?originalSubdomain=br",
+        x:"https://x.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        dribble:"https://dribbble.com/"
+    }
+ },
+ {
+    image: "https://static.portaldaindustria.com.br/media/uploads/logotipos/logo-senai.png",
+    nome: "Senai",
+    role: "Escola",
+    description: "Melhor instituição de ensino",
+    socialMedias: {
+        linkedin:"https://www.linkedin.com/company/senai-nacional/?originalSubdomain=br",
+        x:"https://x.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        dribble:"https://dribbble.com/"
+    }
+ },
 ]
 
 
@@ -22,7 +76,7 @@ export default function TeamComposition () {
     return (
         <div className="team-container">
             <Team.Section />
-            <div className="team-content wrapper">
+            <div className="team-content-wrapper">
 
           {
             TeamUsers.map((user,key) => {
@@ -44,15 +98,7 @@ export default function TeamComposition () {
 
 
 
-            <Team.Content 
-               image="https://static.portaldaindustria.com.br/media/uploads/logotipos/logo-senai.png"
-               nome="Senai"
-               role="Escola"
-               description="Melhor instituição de ensino"
-               linkedin="https://www.linkedin.com/company/senai-nacional/?originalSubdomain=br"
-               x="https://x.com/SENAInacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-               dribble="https://dribbble.com/"
-            />
+            
 
             </div>
             <Team.Main />
