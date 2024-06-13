@@ -6,6 +6,7 @@ import { Routes, Route} from "react-router-dom";
 import React from "react";
 import TeamComposition from "../src/components/Team";
 import Home from "./styles/tailwindcss/components/Home";
+import Contact from "./styles/css.modules/components/Contact";
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" Component={Home} />
         <Route path="/navbar" Component={Navbar} />
         <Route path="/teams" Component={TeamComposition} />
-        <Route />
+        <Route path="/contact" Component={Contact}/>
       </Routes >
     </body>
   );

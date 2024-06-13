@@ -37,8 +37,12 @@ export default function Navbar (props) {
                 <S.Link>
                   <Link to="/teams">Teams</Link>
                 </S.Link>
-                <S.Link>Link 2</S.Link>
-                <S.Link>Link 3</S.Link>
+                <S.Link>
+                  <Link to="/contact">Contact</Link>
+                </S.Link>
+                <S.Link>
+                  <Link ></Link>
+                </S.Link>
                 <S.Link onClick={handleMenu}>Link 4</S.Link>
                 {
                     open && <DropdownMenu pages={listPages} /> 

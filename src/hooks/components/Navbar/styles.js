@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
-    width: 1000px;
+    width: 100vw;
     height: 73px;
     border-bottom: 1px solid black;
     align-items: center;
@@ -19,6 +19,7 @@ export const Logo = styled.h1`
 export const Nav = styled.nav`
     display: flex;
     gap: 32px;
+    
 `
 
 export const Link = styled.button`
