@@ -25,8 +25,9 @@ export default function GetPokemon() {
             {
                 pokedex &&
                         <div className="flex flex-col border-solid w-50 h-50">
-                            <p className="text-center">{pokedex.name}</p>
+                            <p className="text-center">{pokedex.name}:</p>
                             <img src={pokedex.sprites.front_default} alt="" />
+                            <p className="text-center">shiny:</p>
                             <img src={pokedex.sprites.front_shiny} alt="" />
                         </div>            
             }
