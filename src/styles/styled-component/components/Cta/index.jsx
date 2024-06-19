@@ -1,7 +1,5 @@
-
+import React from "react"
 import { CtaButtonOne, CtaButtonTwo, CtaContainer, CtaContainerButton, CtaContent,  CtaDescription, } from "./styles"
-
-
 
 export default function Cta(props) {
     return (
@@ -12,11 +10,6 @@ export default function Cta(props) {
         <CtaButtonOne>{props.button}</CtaButtonOne>
         <CtaButtonTwo>{props.button}</CtaButtonTwo>
         </CtaContainerButton>
-        
-        
         </CtaContainer>
-
-
-
     )
 }

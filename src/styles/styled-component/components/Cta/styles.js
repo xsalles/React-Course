@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import EmptyImage from "../../../../assets/images/Image.svg"
+
 
 
 export const CtaContainer = styled.div`
