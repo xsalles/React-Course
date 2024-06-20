@@ -5,7 +5,6 @@ Neste curso estou aprendendo sobre o React, uma biblioteca do JavaScript que tem
 O que aprendemos:
 
 React:
-
 HTML / CSS /
 CSS Modules / Styled-components / Tailwind /
 Axios /
@@ -32,7 +31,6 @@ ESModules /
 CommonJS /
 
 Componentes da Relume:
-
 Accordion /
 DropDownMenu /
 NavBar /
@@ -43,7 +41,6 @@ Logo
 
 
 Design:
-
 Relume Figma Kit /
 MUI /
 Design System /
