@@ -6,16 +6,16 @@ O que aprendemos:
 
 React:
 
-HTML / CSS 
-CSS Modules / Styled-components / Tailwind
-Axios
-Jest
-React router
-Babel
-MUI
+HTML / CSS /
+CSS Modules / Styled-components / Tailwind /
+Axios /
+Jest /
+React router /
+Babel /
+MUI /
 
 Hooks:
-UseState
+UseState /
 UseEffect
 
 Pattern:
@@ -23,28 +23,28 @@ Composition
 
 Skills Aleatórias:
 
-Ternário
-Map
-Git
-GitHub
-Vercel
-Clean Code
-ESModules
-CommonJS
+Ternário /
+Map /
+Git /
+GitHub /
+Vercel /
+Clean Code /
+ESModules /
+CommonJS /
 
 Componentes da Relume:
 
-Accordion
-DropDownMenu
-NavBar
-Contact
-Layout
-Team
+Accordion /
+DropDownMenu /
+NavBar /
+Contact /
+Layout /
+Team /
 Logo
 
 
 Design:
 
-Relume Figma Kit
-MUI
-Design System
+Relume Figma Kit /
+MUI /
+Design System /
