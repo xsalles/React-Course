@@ -11,7 +11,7 @@ Axios /
 Jest /
 React router /
 Babel /
-MUI /
+MUI 
 
 Hooks:
 UseState /
@@ -28,7 +28,7 @@ GitHub /
 Vercel /
 Clean Code /
 ESModules /
-CommonJS /
+CommonJS 
 
 Componentes da Relume:
 Accordion /
@@ -43,4 +43,4 @@ Logo
 Design:
 Relume Figma Kit /
 MUI /
-Design System /
+Design System 
