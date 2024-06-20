@@ -22,7 +22,6 @@ Pattern:
 Composition
 
 Skills Aleatórias:
-
 Ternário /
 Map /
 Git /
